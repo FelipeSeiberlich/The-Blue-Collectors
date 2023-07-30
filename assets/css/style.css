@@ -30,7 +30,16 @@ body {
 
 .menu li {
     list-style-type: none;
-    margin: 2.5rem 0;
+    margin: 2.4rem 0;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: blue;
+    color: white;
 }
 
 /* First section*/
