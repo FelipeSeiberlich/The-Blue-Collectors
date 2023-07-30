@@ -11,6 +11,7 @@ body {
 
 #logo {
     display: inline-block;
+    float: left;
     background-color: aqua;
     
 }
