@@ -10,17 +10,13 @@ body {
 }
 
 #logo {
-    display: inline-block;
-    float: left;
-    background-color: aqua;
-    
+    float: left;    
 }
 
 .side-to-side {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    background-color: blue;
     text-align: center;
     align-items: center;
 }
@@ -30,6 +26,11 @@ body {
 .menu {
     font-size: 110%;
     letter-spacing: .4rem;
+}
+
+.menu li {
+    list-style-type: none;
+    margin: 2.5rem 0;
 }
 
 /* First section*/
