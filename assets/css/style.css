@@ -25,6 +25,13 @@ body {
     align-items: center;
 }
 
+/*Navigation links*/
+
+.menu {
+    font-size: 110%;
+    letter-spacing: .4rem;
+}
+
 /* First section*/
 .container {
     background-color: tomato;
