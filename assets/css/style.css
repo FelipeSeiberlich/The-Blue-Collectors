@@ -45,7 +45,7 @@ body {
     background-color: blue;
     color: white;
 }
-
+ 
 /* First section*/
 
 section {
@@ -67,5 +67,26 @@ div {
     width: 15rem;
     height: 15rem;
     margin: 1rem;
-    
+}
+
+/* Footer*/
+
+footer {
+    height: 50px;
+    background-color: blue;
+}
+.social-networks {
+    text-align: center;
+}
+.social-networks>li {
+    display: inline;
+}
+.social-networks i {
+    font-size: 160%;
+    margin: 1px;
+    padding: 10px 75px;
+    color: black;
+}
+.social-networks i:hover {
+    color: white;
 }
