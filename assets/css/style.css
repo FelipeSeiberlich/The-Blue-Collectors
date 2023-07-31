@@ -72,8 +72,8 @@ div {
 /* Footer*/
 
 footer {
-    height: 50px;
-    background-color: blue;
+    height: 6rem;
+    
 }
 .social-networks {
     text-align: center;
@@ -82,10 +82,10 @@ footer {
     display: inline;
 }
 .social-networks i {
-    font-size: 160%;
+    font-size: 100%;
     margin: 1px;
     padding: 10px 75px;
-    color: black;
+    color: blue;
 }
 .social-networks i:hover {
     color: white;
