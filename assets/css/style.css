@@ -11,13 +11,17 @@ body {
     font-size: 48px;
 }
 
+header {
+    border: 1rem solid rgba(4, 70, 131, 0.8);
+}
+
 /*Logo*/
 
 #logo {
     float: left;
-    height: 15rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
+    height: 9rem;
+    margin: 0 2rem;
+    
     overflow: hidden;
 }
 
@@ -51,7 +55,7 @@ body {
 }
 
 #four {
-    background-image: url('../images/smurf.png');
+    background-image: url('../images/one.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -66,8 +70,9 @@ body {
 
 .menu li {
     list-style-type: none;
-    margin-top: 4rem;
+    margin: 1rem;
     border-radius: 5rem;
+    
 }
 
 .menu a {
@@ -85,7 +90,7 @@ body {
 /* First section*/
 
 section {
-    height: 60vh;
+    height: 67vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -106,7 +111,7 @@ div {
 
 footer {
     height: 3rem;
-    background-color: black;
+    background-color: rgba(4, 70, 131, 0.8);
 }
 
 .social-networks {
