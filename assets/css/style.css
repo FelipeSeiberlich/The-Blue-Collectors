@@ -1,12 +1,14 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-} 
+}
 
 body {
     font-family: 'Tangerine', serif;
-    font-size: 48px;   
+    font-size: 48px;
 }
 
 #logo {
@@ -14,7 +16,7 @@ body {
     height: 15rem;
     margin-left: 1rem;
     margin-top: 1rem;
-    overflow: hidden;    
+    overflow: hidden;
 }
 
 .side-to-side {
@@ -27,27 +29,42 @@ body {
 
 /*Navigation links*/
 
+#one {
+    background-image: url('../images/papa.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#two {
+    background-image: url('../images/smurfette.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#three {
+    background-image: url('../images/israel.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#four {
+    background-image: url('../images/smurf.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .menu {
     font-size: 90%;
     letter-spacing: .3rem;
     background-color: white;
-    background-image: url('../images/papa.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    
 }
 
-.menu ul {
-    
-      
-}
+.menu ul {}
 
 .menu li {
     list-style-type: none;
     margin-top: 4rem;
-    background-color: rgba(17, 144, 230, 0.2);
     border-radius: 5rem;
-    
 }
 
 .menu a {
@@ -59,21 +76,18 @@ body {
     color: white;
 }
 
- 
+
 /* First section*/
 
 section {
     height: 60vh;
-    
-    /* FLEX PARENT PROPERTIES */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
-    
-    
 }
+
 div {
     text-align: center;
     /*justify-content: center;*/
@@ -81,7 +95,6 @@ div {
     width: 15rem;
     height: 15rem;
     margin: 1rem;
-    
 }
 
 /* Footer*/
@@ -89,20 +102,38 @@ div {
 footer {
     height: 3rem;
     background-color: black;
-    
 }
+
 .social-networks {
     text-align: center;
 }
+
 .social-networks>li {
     display: inline;
 }
+
 .social-networks i {
     font-size: 70%;
     margin: .1rem;
     padding: 3px 75px;
     color: white;
 }
+
 .social-networks i:hover {
     color: blue;
 }
+
+/* Media queries */
+/* For larger to medium screens size from 1200px wide and down */
+/* About/Steps section */
+
+
+@media screen and (max-width: 1200px) {}
+
+/* For medium screens sizes from 950px wide and down */
+/* About/Steps section */
+@media screen and (max-width: 950px) {}
+
+/* For small screens sizes from 730px wide and down */
+/* Index page */
+@media screen and (max-width: 730px) {}
