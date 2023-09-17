@@ -82,20 +82,21 @@ header {
 }
 
 .menu a:hover {
-    background-color: rgb(11, 15, 211);
-    color: white;
+    background-color: silver;
+    color: black;
 }
 
 
 /* First section*/
 
 section {
-    height: 67vh;
+    height: 70vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
+    border: 15px solid silver;
 }
 
 div {
